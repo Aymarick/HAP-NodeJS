@@ -1,3 +1,10 @@
+you can put in `/etc/rc.local` 
+```sh
+su pi -c 'cd /home/pi/HAP-NodeJS && forever start Core.js'
+```
+
+just before `exit 0`
+
 HAP-NodeJS
 ==========
 
